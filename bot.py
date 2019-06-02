@@ -4,7 +4,7 @@ import time
 from coletando_info import pega
 
 
-bot_token = "795674646:AAHY7s8Xetv-XZK8HKtTQGnzdG2_cL6NDII"
+bot_token = ""
 
 bot = telebot.TeleBot(token=bot_token)
 
