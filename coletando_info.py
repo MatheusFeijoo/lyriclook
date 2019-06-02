@@ -9,18 +9,29 @@ from collections import defaultdict
 from heapq import nlargest
 import re
 import string
+import regex as re
 
 
+def remove_punctuation(text):
+    punctuations = '''!()-[];:'",.?#$%^&*_~'''
+    no_punct = ""
+    for char in text:
+        if char not in punctuations:
+            no_punct = no_punct + char
+    return no_punct
 
-def pega(artista, musica):
 
-    texto1temp = artista.lower()
-    texto2temp = musica.lower()
+def pega(artist, music):
+
+    texto1low = artist.lower()
+    texto2low = music.lower()
     
+    texto1temp = remove_punctuation(texto1low)
+    texto2temp = remove_punctuation(texto2low)
+
     texto1 = texto1temp.replace(" ","-")
     texto2 = texto2temp.replace(" ","-")
 
-    
     url = 'https://www.vagalume.com.br/'+ texto1 +'/'+ texto2 +'.html'
 
     link = Request(url,headers={'User-Agent': 'Mozilla/5.0'})

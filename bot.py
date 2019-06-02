@@ -28,10 +28,18 @@ You can see the code of this bot in https://github.com/MatheusFeijoo/lyriclook
 """)
 
 @bot.message_handler(commands=['help'])
-def send_welcome(message):
-    msg = bot.reply_to(message, """\
+def send_help(message):
+    message = bot.reply_to(message, """\
 Hi if you want me to search for a music lyric type /music
-For more informations type /help
+
+------- OMG YOU CAN'T FIND THE LYRICS -------
+I know I know, I'm not perfect, yet!
+I use a brazilian website to search the lyrics, and sometimes they don't use the same name of the music.
+A example is with the artist Passenger, they saved as The Passenger Reino Unido, wich is a bit strange.
+
+Another example is with feat.
+You need to write the feat in the music. For exemple: Princess of China feat. Rihanna
+---------------------------------------------
 
 This bot was developed by @matheusfeijoo
 Feel free to send your feedback :)
@@ -41,7 +49,7 @@ You can see the code of this bot in https://github.com/MatheusFeijoo/lyriclook
 
 # Handle '/start' and '/help'
 @bot.message_handler(commands=['music'])
-def send_welcome(message):
+def send_music(message):
     msg = bot.reply_to(message, """\
 From which artist?
 """)
