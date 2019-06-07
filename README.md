@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.imgur.com/sJzfZsL.jpg" width="150">
+  <img src="https://i.imgur.com/yUqjZ60.png" width="150">
   <h1 align="center">Lyric Look</h1>
   <p align="center">A Telegram Bot to search for lyrics.</br>
   A simple way to <b>look</b> for a lyric!
