@@ -48,3 +48,8 @@ def pega(artist, music):
     fh.close() 
     
     return text
+
+
+resul = pega("justin timberlake","mirrors")
+print(resul)
+    

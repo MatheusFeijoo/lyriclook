@@ -1,7 +1,7 @@
 import telebot
 from telebot import types
 import time
-from coletando_info import pega
+from search import pega
 
 
 bot_token = "795674646:AAHY7s8Xetv-XZK8HKtTQGnzdG2_cL6NDII"
