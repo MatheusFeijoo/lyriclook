@@ -47,7 +47,6 @@ You can see the code of this bot in https://github.com/MatheusFeijoo/lyriclook
 """)
 
 
-# Handle '/start' and '/help'
 @bot.message_handler(commands=['music'])
 def send_music(message):
     msg = bot.reply_to(message, """\
@@ -78,6 +77,7 @@ def process_age_step(message):
         lyrics = pega(user.name, user.music)
         bot.send_message(chat_id, lyrics)
     except Exception as e:
+        print(e)
         bot.reply_to(message, 'Sorry I am not perfect yet. \n You can Try again with /music')
 
 

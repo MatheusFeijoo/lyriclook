@@ -33,6 +33,7 @@ def pega(artist, music):
     texto2 = texto2temp.replace(" ","-")
 
     url = 'https://www.vagalume.com.br/'+ texto1 +'/'+ texto2 +'.html'
+    print(url)
 
     link = Request(url,headers={'User-Agent': 'Mozilla/5.0'})
 
@@ -41,4 +42,6 @@ def pega(artist, music):
     soup = BeautifulSoup(pagina, "lxml")
     texto = soup.find(id="lyrics")
     text = texto.get_text(separator="\n")
+    print("             ")
+    print(text)
     return text
