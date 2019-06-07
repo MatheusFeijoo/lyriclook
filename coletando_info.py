@@ -42,6 +42,9 @@ def pega(artist, music):
     soup = BeautifulSoup(pagina, "lxml")
     texto = soup.find(id="lyrics")
     text = texto.get_text(separator="\n")
-    print("             ")
-    print(text)
+    
+    fh = open('savedData.txt', 'w') 
+    fh.write(texto1 +','+ texto2 +','+ url) 
+    fh.close() 
+    
     return text
