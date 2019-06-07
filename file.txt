@@ -1,0 +1,4 @@
+coldplay,yellow,https://www.vagalume.com.br/coldplay/yellow.html
+coldplay,yellow,https://www.vagalume.com.br/coldplay/yellow.html
+coldplay,birds,https://www.vagalume.com.br/coldplay/birds.html
+coldplay,birds,https://www.vagalume.com.br/coldplay/birds.html

@@ -43,13 +43,13 @@ def pega(artist, music):
     texto = soup.find(id="lyrics")
     text = texto.get_text(separator="\n")
     
-    fh = open('savedData.txt', 'w') 
-    fh.write(texto1 +','+ texto2 +','+ url) 
-    fh.close() 
+    with open("file.txt", "a") as f:
+        f.write(texto1 + ',' + texto2 + ',' + url + '\n') 
+        f.close() 
     
     return text
 
 
-resul = pega("justin timberlake","mirrors")
+resul = pega("coldplay","birds")
 print(resul)
     
