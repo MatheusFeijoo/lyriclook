@@ -3,8 +3,10 @@ from telebot import types
 import time
 from search import pega
 
+with open('c:/applications_keys/lyriclook.csv', 'r', encoding="utf-8") as key:
+    key = key.read()
 
-bot_token = "795674646:AAHY7s8Xetv-XZK8HKtTQGnzdG2_cL6NDII"
+bot_token = key
 
 bot = telebot.TeleBot(token=bot_token)
 
@@ -90,4 +92,4 @@ bot.enable_save_next_step_handlers(delay=2)
 # WARNING It will work only if enable_save_next_step_handlers was called!
 bot.load_next_step_handlers()
 
-bot.polling()
+bot.polling(none_stop=True)
