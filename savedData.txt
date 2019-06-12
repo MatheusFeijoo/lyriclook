@@ -1,0 +1,8 @@
+two-door-cinema-club,talk,https://www.vagalume.com.br/two-door-cinema-club/talk.html
+two-door-cinema-club,talk,https://www.vagalume.com.br/two-door-cinema-club/talk.html
+coldplay,yellow,https://www.vagalume.com.br/coldplay/yellow.html
+coldplay,yellow,https://www.vagalume.com.br/coldplay/yellow.html
+coldplay,speed-of-sound,https://www.vagalume.com.br/coldplay/speed-of-sound.html
+coldplay,yellow,https://www.vagalume.com.br/coldplay/yellow.html
+coldplay,yellow,https://www.vagalume.com.br/coldplay/yellow.html
+coldplay,yellow,https://www.vagalume.com.br/coldplay/yellow.html
