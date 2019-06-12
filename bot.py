@@ -3,10 +3,7 @@ from telebot import types
 import time
 from search import pega
 
-with open('c:/applications_keys/lyriclook.csv', 'r', encoding="utf-8") as key:
-    key = key.read()
-
-bot_token = key
+bot_token = "795674646:AAHY7s8Xetv-XZK8HKtTQGnzdG2_cL6NDII"
 
 bot = telebot.TeleBot(token=bot_token)
 
