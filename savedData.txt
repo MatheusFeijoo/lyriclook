@@ -6,3 +6,5 @@ coldplay,speed-of-sound,https://www.vagalume.com.br/coldplay/speed-of-sound.html
 coldplay,yellow,https://www.vagalume.com.br/coldplay/yellow.html
 coldplay,yellow,https://www.vagalume.com.br/coldplay/yellow.html
 coldplay,yellow,https://www.vagalume.com.br/coldplay/yellow.html
+coldplay,yellow,https://www.vagalume.com.br/coldplay/yellow.html
+coldplay,yellow,https://www.vagalume.com.br/coldplay/yellow.html
