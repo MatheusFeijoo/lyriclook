@@ -50,5 +50,6 @@ def pega(artist, music):
     return text
 
 
-print("Search is working")
+resul = pega("coldplay","birds")
+print(resul)
     
